@@ -8,10 +8,14 @@ var questions;
 var cards;
 var over;
 var drops;
+// var song;
 // var assignmentData;
 function preload() {
-
+  // song = loadSound("soundtrack.m4a");
   // assignmentData = loadJSON("js/assignments.json");
+  // $.get("/gamedata", function() {
+  //   console.log(data);
+  // }
 }
 function setup() {
   createCanvas(1315*.8,912*.8+20);
@@ -41,6 +45,7 @@ function draw() {
   textSize(34*.8);
   textAlign(LEFT);
   text("Time: " + player.time + "hrs",35*.8,587*.8+34*.8);
+  player.skill = max(player.skill,0);
   text("Skill Lvl: " + floor(player.skill/11),1108*.8,587*.8+34*.8);
   fill(white);
   textSize(26*.8);
@@ -85,6 +90,7 @@ function mouseClicked() {
         player.hand[i] = getCard();
       }
     }
+    sbutton += 50;
 
     // console.log(player);
   }else if(mouseX > 1100*.8 && mouseX < 1100*.8+116*.8 && mouseY > 753*.8 && mouseY < 753*.8+41*.8) {

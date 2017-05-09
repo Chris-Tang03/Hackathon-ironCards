@@ -1,4 +1,6 @@
 var elements;
+// var sbutton;
+// var sbuttont;
 function elements_setup() {
   dark_blue =color('#202F37');
   light_blue =color('#4EC4CF');
@@ -7,6 +9,8 @@ function elements_setup() {
   light_green = color('#56E39F');
   accent = color('#A80874');
   elements = [];
+  // sbutton = 753;
+  // sbuttont = 753;
   elements.push (new UIElement(18,23,846,513,10,dark_blue));
   elements.push (new UIElement(864,23,433,513,10,grey));
   elements.push (new UIElement(18,544,1280,25,5,grey));

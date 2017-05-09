@@ -74,25 +74,25 @@ loadData = function() {
       wrongc: "list.Length"
     },
     {
-      prompt: "How do you type a new line in html using a tag",
+      prompt: "How do you type a new line in html using a tag?",
       right: "<br>",
       wronga: "<br />",
       wrongb: "<break>",
       wrongc: "<nextLine>"
     },
     {
-      prompt: "What are the three front end languages",
-      right: "html,css, and javascript",
-      wronga: "html,css and java",
-      wrongb: "css,javascript and java",
-      wrongc: "ruby,python and basic"
+      prompt: "What are the three front end languages?",
+      right: "html,css,javascript",
+      wronga: "html,css,java",
+      wrongb: "css,javascript,java",
+      wrongc: "ruby,python,basic"
     },
     {
       prompt: "What is the first step you always take if you dont understand something?",
       right: "Google it!",
       wronga: "PaNiC",
       wrongb: "Call a friend",
-      wrongc: "Attempt to bribe the Teacher"
+      wrongc: "Bribe teacher"
     },
     {
       prompt: "How do you get the First element of an array named list?",
@@ -100,6 +100,34 @@ loadData = function() {
       wronga: "list[1]",
       wrongb: "list.first",
       wrongc: "list[first]"
+    },
+    {
+      prompt: "What is the main color of the page called?",
+      right: "Primary",
+      wronga: "Secondary",
+      wrongb: "Accent",
+      wrongc: "Main"
+    },
+    {
+      prompt: "What tag created a horizontal line?",
+      right: "<hr>",
+      wronga: "<l>",
+      wrongb: "<line>",
+      wrongc: "<v-line"
+    },
+    {
+      prompt: "What tag creates a link?",
+      right: "<a>",
+      wronga: "<link>",
+      wrongb: "<l>",
+      wrongc: "<#>"
+    },
+    {
+      prompt: "What tag creates a block level box element?",
+      right: "<div>",
+      wronga: "<box>",
+      wrongb: "<flexbox>",
+      wrongc: "<rect>"
     }
   ];
   cards = [
